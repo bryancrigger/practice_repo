@@ -6,13 +6,12 @@ import plotly.graph_objects as go
 
 # Read in data for nodes and for the links
 links = pd.read_excel(r'C:\Users\bryan\Dropbox\General Folder\Python\data\us_individuals_born_outside_us_links.xlsx')
-
 nodes = pd.read_excel(r'C:\Users\bryan\Dropbox\General Folder\Python\data\us_individuals_born_outside_us_nodes.xlsx')
 # links_v1 = pd.read_excel(r'C:\Users\bryan\Dropbox\General Folder\Python\data\sankey_diagram_us_birth_place_links.xlsx')
 # nodes_v1 = pd.read_excel(r'C:\Users\bryan\Dropbox\General Folder\Python\data\sankey_diagram_us_birth_place_nodes.xlsx')
 
 
-
+# Want to go in and add color changes to the nodes and links. See if I can do in code
 
 
 # Convert the DataFrames to a list
