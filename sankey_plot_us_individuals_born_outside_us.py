@@ -5,8 +5,8 @@ import plotly.graph_objects as go
 
 
 # Read in data for nodes and for the links
-links = pd.read_excel(r'C:\Users\bryan\Dropbox\General Folder\Python\data\us_individuals_born_outside_us_links.xlsx')
-nodes = pd.read_excel(r'C:\Users\bryan\Dropbox\General Folder\Python\data\us_individuals_born_outside_us_nodes.xlsx')
+links = pd.read_excel(r'...file_path\data\us_individuals_born_outside_us_links.xlsx')
+nodes = pd.read_excel(r'...file_path\us_individuals_born_outside_us_nodes.xlsx')
 
 
 # Go in and add color changes to the nodes and links
@@ -181,7 +181,7 @@ fig1 = go.Figure(data=[data_trace], layout=layout_w_buttons)
 fig1.show()
 
 
-# fig1.write_html("C:/Users/bryan/Dropbox/General Folder/Python/outputs/us_individuals_born_outside_us.html")
+fig1.write_html("...file_path/us_individuals_born_outside_us.html")
 
 
 
