@@ -5,7 +5,7 @@ import plotly.graph_objects as go
 
 
 # Read in data for nodes and for the links
-links = pd.read_excel(r'...file_path\data\us_individuals_born_outside_us_links.xlsx')
+links = pd.read_excel(r'...file_path\us_individuals_born_outside_us_links.xlsx')
 nodes = pd.read_excel(r'...file_path\us_individuals_born_outside_us_nodes.xlsx')
 
 
