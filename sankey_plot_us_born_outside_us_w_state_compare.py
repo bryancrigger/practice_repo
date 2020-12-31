@@ -180,13 +180,6 @@ fig1 = go.Figure(data=[data_trace], layout=layout_w_buttons)
 fig1.show()
 
 
-
+# Export plot to html
 fig1.write_html("us_born_outside_us_compared_to_us_states.html")
-
-
-
-
-
-
-
 
