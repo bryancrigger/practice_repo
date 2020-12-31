@@ -13,7 +13,6 @@ nodes = pd.read_excel('us_born_outside_us_nodes_w_state_compare.xlsx')
 
 
 
-
 # Convert the DataFrames to a list
 nodes_list = [nodes.columns.values.tolist()] + nodes.values.tolist()
 
@@ -179,6 +178,7 @@ layout_w_buttons =  dict(
 
 fig1 = go.Figure(data=[data_trace], layout=layout_w_buttons)
 fig1.show()
+
 
 
 fig1.write_html("us_born_outside_us_compared_to_us_states.html")
