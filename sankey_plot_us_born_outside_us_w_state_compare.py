@@ -58,7 +58,7 @@ data_trace = dict(
 # Option 1, with a "basic" layout with a Title and Subtitle with reference link.
 
 layout = dict(
-        title = "Number of individuals born outside of US, living in the US (2018)<br>Compared to those born in US for a few States<br><span style='font-size:0.6em;color:gray'>Link to data <a href='https://www.migrationpolicy.org/data/state-profiles/state/demographics/US'>here.</a></span><span style='font-size:0.6em;color:gray'> Hover over diagram for more info on each flow.</span>",
+    title = "Number of individuals born outside of US, living in the US (2018)<br>Compared to those born in US for a few States<br><span style='font-size:0.6em;color:gray'>Source to immigration data <a href='https://www.migrationpolicy.org/data/state-profiles/state/demographics/US'>https://www.migrationpolicy.org/data/state-profiles/state/demographics/US.</a></span><span style='font-size:0.6em;color:gray'> Hover over diagram for more info on each flow.</span>",
     height = 750,                                               # Height of the figure output
     width = 1200,                                               # Width of figure output
     font = dict(
@@ -68,7 +68,7 @@ layout = dict(
 # into the plot. Included are just a few examples of buttons and plot adjustments that can be included in a Sankey plot. 
 
 layout_w_buttons =  dict(
-    title = "Number of individuals born outside of US, living in the US (2018)<br>Compared to those born in US for a few States<br><span style='font-size:0.6em;color:gray'>Link to data <a href='https://www.migrationpolicy.org/data/state-profiles/state/demographics/US'>here.</a></span><span style='font-size:0.6em;color:gray'> Hover over diagram for more info on each flow.</span>",
+    title = "Number of individuals born outside of US, living in the US (2018)<br>Compared to those born in US for a few States<br><span style='font-size:0.6em;color:gray'>Source to immigration data <a href='https://www.migrationpolicy.org/data/state-profiles/state/demographics/US'>https://www.migrationpolicy.org/data/state-profiles/state/demographics/US.</a></span><span style='font-size:0.6em;color:gray'> Hover over diagram for more info on each flow.</span>",
     font = dict(
       size = 12
     ),
